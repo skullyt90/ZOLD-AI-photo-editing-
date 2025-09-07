@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Photo Editing Tools</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f4f7fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px;
+      font-size: 24px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    a.tool {
+      display: block;
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s, background 0.3s;
+    }
+    a.tool:hover {
+      transform: scale(1.05);
+      background: #e8f5e9;
+    }
+  </style>
+</head>
+<body>
+  <header>📸 Free Photo Editing Tools</header>
+  
+  <div class="container">
+    <a class="tool" href="https://www.remove.bg/" target="_blank">🖼 Remove Background</a>
+    <a class="tool" href="https://www.upscale.media/" target="_blank">✨ AI Photo Enhance (HD)</a>
+    <a class="tool" href="https://www.photopea.com/" target="_blank">🎨 Full Photo Editor</a>
+    <a class="tool" href="https://pixlr.com/e/" target="_blank">✂️ Cutout & Effects</a>
+    <a class="tool" href="https://fotor.com/" target="_blank">📝 Add Text & Filters</a>
+  </div>
+</body>
+</html>
